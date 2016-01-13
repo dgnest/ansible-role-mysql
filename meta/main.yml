@@ -4,8 +4,8 @@ galaxy_info:
   description: Ansible role to install mysql
   company: DgNest
   version: 0.0.1
-  license: Mit
-  min_ansible_version: 1.2
+  license: "Mit"
+  min_ansible_version: 1.4
   platforms:
   - name: EL
     versions:
@@ -86,8 +86,9 @@ galaxy_info:
   # the platforms above, uncomment those that apply to your role.
   #
   categories:
-  - system
+  - database
   #- development
+
 dependencies: []
   # List your role dependencies here, one per line. Only
   # dependencies available via galaxy should be listed here.
