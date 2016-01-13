@@ -1,0 +1,8 @@
+---
+
+# vars file for nginx
+
+_nginx_path:
+  tmp: "/var/tmp"
+  sites_available: "/etc/nginx/sites-available"
+  sites_enabled: "/etc/nginx/sites-enabled"
