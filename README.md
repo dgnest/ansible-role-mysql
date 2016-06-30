@@ -24,6 +24,21 @@ The default role variables in `defaults/main.yml` are:
 
     ---
     # defaults file for mysql
+    mysql_user_home: /root
+    mysql_root_username: root
+    mysql_root_password: root
+    mysql_port: "3306"
+    mysql_bind_address: '0.0.0.0'
+    mysql_slow_query_log_enabled: no
+    mysql_databases:
+      - name: example
+        collation: utf8_general_ci
+        encoding: utf8
+    mysql_users:
+      - name: example
+        host: 127.0.0.1
+        password: secret
+        priv: *.*:USAGE
 
 
 ## Dependencies
