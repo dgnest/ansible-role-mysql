@@ -72,13 +72,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
+Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+
 - [Luis Mayta][link-author]
-- [All Contributors][link-contributors]
 
 [link-mysql]: https://mysql.com/
 [link-brew]: http://brew.sh/
 
 <!-- Other -->
 
-[link-author]: https://github.com/luismayta
 [link-contributors]: AUTHORS
+[link-company]: https://github.com/dgnest
